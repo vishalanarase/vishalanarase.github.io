@@ -121,9 +121,9 @@ comments:
   # Giscus options › https://giscus.app
   giscus:
     repo: vishalanarase/vishalanarase.github.io # <gh-username>/<repo>
-    repo_id:
+    repo_id: R_kgDOJ3YXBQ
     category: General
-    category_id:
+    category_id: DIC_kwDOJ3YXBc4ClnHu
     mapping: title # optional, default to 'pathname'
     strict: 0 # optional, default to '0'
     input_position: bottom # optional, default to 'bottom'
