@@ -1,5 +1,5 @@
 ---
-title: Docker Basics: Hoisting the Sails 🚢
+title: Docker Basics - Hoisting the Sails 🚢
 author: vishalanarase
 date: 2025-01-01 16:00:00 +0530
 categories: [Docking the Ship Navigating Docker for Developers]
