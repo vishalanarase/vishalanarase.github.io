@@ -88,7 +88,7 @@ As we continue this series, we’ll dive deeper into the core components of Dock
 
 ---
 
-### **Stay Tuned for the Next Post:** [Docker Basics: Hoisting the Sails](#)  
+### **Stay Tuned for the Next Post:** [Docker Basics: Hoisting the Sails](https://vishalanarase.github.io/posts/docker-02-hoisting-the-sails/)  
 
 Let’s continue this journey together!
  

@@ -23,7 +23,7 @@ Understanding Docker basics is essential to getting comfortable with its powerfu
 To get started with Docker, you’ll first need to install it on your system. Here’s a quick overview:  
 
 ### **Step 1: Download Docker**  
-- Visit the Docker Desktop Download Page and download the version for your OS (Windows, macOS, or Linux).  
+- Visit the Docker [Desktop Download](https://www.docker.com/products/docker-desktop/) Page and download the version for your OS (Windows, macOS, or Linux).  
 - For Linux users, refer to the official documentation for installation instructions.  
 
 ### **Step 2: Install and Set Up**  
@@ -206,5 +206,3 @@ In the next post, We’ll dive deeper into images—how they are built, customiz
 ---
 
 Got questions or feedback? Drop a comment below or reach out—I’d love to hear your thoughts!
-
-Let’s continue this journey together!
