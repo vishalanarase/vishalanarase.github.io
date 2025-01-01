@@ -7,7 +7,7 @@ tags: [docker]
 render_with_liquid: false
 ---
 
-![](assets/images/docker/title/hoisting-sail.webp)
+![](assets/images/docker/title/hoisting-sail.png)
 
 Welcome back to **"Docking the Ship: Navigating Docker for Developers"**! After learning what Docker is and why it’s a game changer, it’s time to dive into the fundamentals. In this post, we’ll focus on installing Docker, setting up your environment, and running your first container. Ready to hoist the sails? Let’s get started!  
 
