@@ -6,7 +6,7 @@ order: 4
 
 # Hi there 👋 
 
-### 👨🏻‍💻 About Me
+### 👨🏻‍💻  About Me
 
 > I am Vishal, Software Developer Engineer at Civo. working with Open Source, Cloud Native around Kubernetes and Golang as a programming language
 
@@ -16,7 +16,7 @@ order: 4
 > RESTful API | gRPC | Microservices
 > Keen Programmer | Enthusiastic of Knowledge | MS in Computer Science
 
-### 🛠 Technologies Stack
+### 🛠  Technologies Stack
 
 ![](https://img.shields.io/badge/OS-Linux-informational?style=flat&logo=linux&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Shell-Bash-informational?style=flat&logo=gnu-bash&logoColor=white&color=2bbc8a)
@@ -29,7 +29,7 @@ order: 4
 
 ![](https://img.shields.io/badge/Cloud-Civo-informational?style=flat&logo=civo&logoColor=white&color=2bbc8a)
 
-### 🤝🏻 Connect with Me {: .prompt-tip }
+### 🤝🏻  Connect with Me
 
 <!-- 
 <a href="https://vishalanarase.github.io/"><img src="https://img.shields.io/badge/-vishalanarase.github.io-3423A6?style=flat&logo=Google-Chrome&logoColor=white"/></a>
@@ -65,5 +65,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
+<!--
 > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
 {: .prompt-tip }
+-->
