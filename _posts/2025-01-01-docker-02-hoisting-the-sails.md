@@ -42,9 +42,45 @@ If it returns the Docker version, you're all set to move forward! 🚀
 
 Output: Docker version on my machine
 ```bash
-Docker version 20.10.12, build e91ed57
+Docker version 27.4.0, build bde2b89
 ```
 
+Verify client and server version
+
+```bash
+docker version
+```
+
+Output:
+```bash
+Client:
+ Version:           27.4.0
+ API version:       1.47
+ Go version:        go1.22.10
+ Git commit:        bde2b89
+ Built:             Sat Dec  7 10:35:43 2024
+ OS/Arch:           darwin/arm64
+ Context:           desktop-linux
+
+Server: Docker Desktop 4.37.1 (178610)
+ Engine:
+  Version:          27.4.0
+  API version:      1.47 (minimum version 1.24)
+  Go version:       go1.22.10
+  Git commit:       92a8393
+  Built:            Sat Dec  7 10:38:33 2024
+  OS/Arch:          linux/arm64
+  Experimental:     true
+ containerd:
+  Version:          1.7.21
+  GitCommit:        472731909fa34bd7bc9c087e4c27943f9835f111
+ runc:
+  Version:          1.1.13
+  GitCommit:        v1.1.13-0-g58aa920
+ docker-init:
+  Version:          0.19.0
+  GitCommit:        de40ad0
+```
 ---
 
 ## **2. Running Your First Container**  
