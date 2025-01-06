@@ -5,9 +5,8 @@ date: 2025-01-03 18:00:00 +0530
 categories: [Docking the Ship Navigating Docker for Developers]
 tags: [docker]
 render_with_liquid: false
+image: assets/images/docker/title/crafting-your-vessel.png
 ---
-
-![](assets/images/docker/title/crafting-your-vessel.png)
 
 Welcome back to **"Docking the Ship: Navigating Docker for Developers"**! After installing Docker and running `docker images`, it’s time to learn about Docker images. In the containerization world, Docker images are the building blocks for containers. Just as a ship requires a blueprint to sail, your application needs a Docker image to run in a containerized environment. In this post, we’ll explore how Docker images are created, how Dockerfile works, and how you can customize your own Docker images for your applications.
 

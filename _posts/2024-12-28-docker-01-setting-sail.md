@@ -5,6 +5,7 @@ date: 2024-12-27 07:10:00 +0530
 categories: [Docking the Ship Navigating Docker for Developers]
 tags: [docker]
 render_with_liquid: false
+image: assets/images/docker/title/setting-sail.webp
 ---
 
 Welcome aboard! In this first post of our series, we’ll be setting sail into the world of Docker, uncovering what it is, why it matters, and how it’s changing the landscape of software development. Whether you're a beginner or an experienced developer, this post will provide a solid foundation for understanding Docker and its core concepts.

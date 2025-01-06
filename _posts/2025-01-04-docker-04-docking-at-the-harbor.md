@@ -5,9 +5,8 @@ date: 2025-01-04 18:00:00 +0530
 categories: [Docking the Ship Navigating Docker for Developers]
 tags: [docker]
 render_with_liquid: false
+image: assets/images/docker/title/docker-registry.webp
 ---
-
-![](assets/images/docker/title/docker-registry.webp)
 
 Welcome Back to "Docking the Ship: Navigating Docker for Developers"! In the journey of mastering Docker, understanding Docker registries is a crucial milestone. Think of Docker registries as the harbors where your Docker images are securely stored, efficiently shared, and effectively managed.  
 

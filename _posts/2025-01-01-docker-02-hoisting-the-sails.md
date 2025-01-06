@@ -5,9 +5,8 @@ date: 2025-01-01 16:00:00 +0530
 categories: [Docking the Ship Navigating Docker for Developers]
 tags: [docker]
 render_with_liquid: false
+image: assets/images/docker/title/hoisting-sail.png
 ---
-
-![](assets/images/docker/title/hoisting-sail.png)
 
 Welcome back to **"Docking the Ship: Navigating Docker for Developers"**! After learning what Docker is and why it’s a game changer, it’s time to dive into the fundamentals. In this post, we’ll focus on installing Docker, setting up your environment, and running your first container. Ready to hoist the sails? Let’s get started!  
 
