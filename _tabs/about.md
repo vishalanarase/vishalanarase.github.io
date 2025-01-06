@@ -12,40 +12,19 @@ order: 4
 
 > 👨🏻‍💻 @Civo | @Kubernetes | CNCF Kubestronaut | Cloud Native | Open Source
 
-> Kubernetes | Golang | Docker 
-> RESTful API | gRPC | Microservices
-> Keen Programmer | Enthusiastic of Knowledge | MS in Computer Science
+> Kubernetes | Golang | Docker | Kubernetes Operators
+> CLI | RESTful API | gRPC | Microservices
+> Programmer | Creator | |  MS in Computer Science
 
 ### 🛠  Technologies Stack
 
-![](https://img.shields.io/badge/OS-Linux-informational?style=flat&logo=linux&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/Shell-Bash-informational?style=flat&logo=gnu-bash&logoColor=white&color=2bbc8a)
+> ![](https://img.shields.io/badge/OS-Linux-informational?style=flat&logo=linux&logoColor=white&color=2bbc8a) | ![](https://img.shields.io/badge/Shell-Bash-informational?style=flat&logo=gnu-bash&logoColor=white&color=2bbc8a) | ![](https://img.shields.io/badge/Code-Golang-informational?style=flat&logo=go&logoColor=white&color=2bbc8a) | ![](https://img.shields.io/badge/Tool-Docker-informational?style=flat&logo=docker&logoColor=white&color=2bbc8a)
+> ![](https://img.shields.io/badge/Tool-Kubernetes-informational?style=flat&logo=kubernetes&logoColor=white&color=2bbc8a) | ![](https://img.shields.io/badge/Tool-PostgreSQL-informational?style=flat&logo=postgresql&logoColor=white&color=2bbc8a) | ![](https://img.shields.io/badge/Tool-MySQL-informational?style=flat&logo=mysql&logoColor=white&color=2bbc8a) | ![](https://img.shields.io/badge/Cloud-Civo-informational?style=flat&logo=civo&logoColor=white&color=2bbc8a)
 
-![](https://img.shields.io/badge/Code-Golang-informational?style=flat&logo=go&logoColor=white&color=2bbc8a)
+### 🤝🏻  Connect With Me
 
-![](https://img.shields.io/badge/Tool-Docker-informational?style=flat&logo=docker&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/Tool-Kubernetes-informational?style=flat&logo=kubernetes&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/Tool-PostgreSQL-informational?style=flat&logo=postgresql&logoColor=white&color=2bbc8a)
+> <a href="https://vishalanarase.github.io/"><img src="https://img.shields.io/badge/-vishalanarase.github.io-3423A6?style=flat&logo=Google-Chrome&logoColor=white"/></a> | <a href="https://www.linkedin.com/in/vishal-anarase-623707104/"><img src="https://img.shields.io/badge/-Vishal%20Anarase-0077B5?style=flat&logo=LinkedIn&logoColor=white"/></a> | <a href="https://twitter.com/vishalanarase"><img src="https://img.shields.io/badge/-@vishalanarase-00ACEE?style=flat&logo=X&logoColor=white"/></a> | <a href="https://www.youtube.com/@vishal.anarase"><img src="https://img.shields.io/badge/-@vishal.anarase-CD201F?style=flat&logo=Youtube&logoColor=white"/></a> | <a href="mailto:iamvishalanarase@gmail.com"><img src="https://img.shields.io/badge/-iamvishalanarase@gmail.com-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
 
-![](https://img.shields.io/badge/Cloud-Civo-informational?style=flat&logo=civo&logoColor=white&color=2bbc8a)
-
-### 🤝🏻  Connect with Me
-
-<!-- 
-<a href="https://vishalanarase.github.io/"><img src="https://img.shields.io/badge/-vishalanarase.github.io-3423A6?style=flat&logo=Google-Chrome&logoColor=white"/></a>
-
-
-<a href="https://www.linkedin.com/in/vishal-anarase-623707104/"><img src="https://img.shields.io/badge/-Vishal%20Anarase-0077B5?style=flat&logo=Linkedin&logoColor=white"/></a>
-
-
-<a href="https://twitter.com/vishalanarase"><img src="https://img.shields.io/badge/-@vishalanarase-00ACEE?style=flat&logo=Twitter&logoColor=white"/></a>
-
-
-<a href="https://www.youtube.com/@vishal.anarase"><img src="https://img.shields.io/badge/-@vishal.anarase-CD201F?style=flat&logo=Youtube&logoColor=white"/></a>
-
-
-<a href="mailto:vishalanarase11@gmail.com"><img src="https://img.shields.io/badge/-iamvishalanarase@gmail.com-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
- -->
 
 <!--
 
