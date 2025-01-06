@@ -417,8 +417,6 @@ To highlight the difference in image sizes, let’s look at the sizes of images 
 
 In this post, we’ve learned how Docker images are created, how layers work, and how to customize your Dockerfile to optimize your application’s container. We also covered the powerful concept of multi-stage builds, which can significantly reduce the size of your Docker images.
 
-In next
-
 ---
 ## **Key Takeaways**
 
