@@ -35,6 +35,8 @@ A Docker registry is a storage and distribution system for Docker images. It all
 
 ## **Core Concepts**
 
+![](assets/images/docker/docker-registry-concepts.png)
+
 ### 1. **Pushing Images to a Registry**
 
 #### Prequisites (Docker Hub or Private Registry Account)
