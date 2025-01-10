@@ -309,7 +309,7 @@ For organizations requiring more control and security, a private registry is a g
 4. **Tagging and Managing Images**:  
    - Proper tagging helps in versioning and organizing images efficiently.  
 
-In the next post, we’ll explore [Docker Containers: The Heart of Navigation](#). Stay tuned! 🚀
+In the next post, we’ll explore [Docker Containers: The Heart of Navigation](https://vishalanarase.github.io/posts/docker-05-the-heart-of-navigation/). Stay tuned! 🚀
 
 ---
 
