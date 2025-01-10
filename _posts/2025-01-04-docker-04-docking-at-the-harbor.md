@@ -69,7 +69,10 @@ Pushing an image involves uploading it to a registry so it can be shared or depl
     docker build -t navigating-docker .
     ```
     <details>
-    <summary>Output</summary>
+    <summary>
+    Output
+    </summary>
+    ```bash
     [+] Building 6.3s (12/12) FINISHED                                                                                                       docker:desktop-linux
      => [internal] load build definition from Dockerfile                                                                                                     0.0s
      => => transferring dockerfile: 515B                                                                                                                     0.0s
@@ -94,6 +97,8 @@ Pushing an image involves uploading it to a registry so it can be shared or depl
 
     What's next:
         View a summary of image vulnerabilities and recommendations → docker scout quickview
+    ```
+
     </details>
 
     ```bash

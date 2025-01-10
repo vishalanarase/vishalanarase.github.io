@@ -168,6 +168,7 @@ kramdown:
     block:
       line_numbers: true
       start_line: 1
+  parse_block_html: true
 
 collections:
   tabs:
