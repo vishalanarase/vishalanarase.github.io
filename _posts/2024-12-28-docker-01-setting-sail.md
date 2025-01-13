@@ -14,7 +14,7 @@ Welcome aboard! In this first post of our series, we’ll be setting sail into t
 
 Before we dive into Docker, let's first explore the concept of **containers**. At a high level, containers are a form of virtualization that allow you to run applications in isolated environments. But unlike traditional virtual machines (VMs), containers are much more lightweight and efficient.
 
-![](assets/images/docker/containers.png)
+![](assets/images/docker/docker-engine.png)
 
 ### Key Characteristics of Containers:
 - **Isolation**: Each container runs its own processes, networking, and file system, but shares the kernel of the host operating system. This isolation ensures that applications inside containers don’t interfere with each other.
