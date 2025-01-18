@@ -7,8 +7,7 @@ tags: [docker]
 render_with_liquid: false
 image: assets/images/docker/title/docker-volume.webp
 ---
-
-Docker has revolutionized how we build, deploy, and run applications. It provides an isolated environment for running your applications, known as containers. While Docker containers are fantastic for packaging applications, they have one major limitation: **data persistence**. By default, the data inside a container is ephemeral, meaning it disappears when the container is removed or stopped. This is where **Docker Volumes** come to the rescue. In this post, we'll explore Docker volumes, their theory behind them, and how they can be used to persist data across container lifecycles.
+Welcome back to *Docking the Ship: Navigating Docker for Developers*! Docker has revolutionized how we build, deploy, and run applications. It provides an isolated environment for running your applications, known as containers. While Docker containers are fantastic for packaging applications, they have one major limitation: **data persistence**. By default, the data inside a container is ephemeral, meaning it disappears when the container is removed or stopped. This is where **Docker Volumes** come to the rescue. In this post, we'll explore Docker volumes, their theory behind them, and how they can be used to persist data across container lifecycles.
 
 ## What are Docker Volumes?
 
@@ -217,7 +216,8 @@ $ docker exec -it mysql-container mysql -uroot -p
 
 
 <details>
-<summary>Output
+<summary>
+Output
 </summary>
 
 ```bash
@@ -234,7 +234,7 @@ Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 mysql>
 ```
 
-<details>
+</details>
 
 ### Step 6: Verify that the data is still there:
 
@@ -244,7 +244,8 @@ SELECT * FROM users;
 ```
 
 <details>
-<summary>SQL Output
+<summary>
+SQL Output
 </summary>
 
 ```bash
