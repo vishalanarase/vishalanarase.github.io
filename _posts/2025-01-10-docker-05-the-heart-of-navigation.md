@@ -591,7 +591,7 @@ Docker containers provide isolation through the following mechanisms:
 
 Docker containers are the heartbeat of modern application development. They provide a lightweight, efficient, and portable way to package and run applications. By mastering container lifecycles, management, and isolation, you’ll be well-equipped to harness their full potential.
 
-In the next post, we’ll explore [Docker Volumes and Networks: Mapping Your Route](#) to understand how to manage persistent data and connect containers. Stay tuned, and happy docking! 🚢
+In the next post, we’ll explore [Docker Volumes : Persisting Data](https://vishalanarase.github.io/posts/docker-06-persisting-data/) to understand how to manage persistent data and connect containers. Stay tuned, and happy docking! 🚢
 
 --- 
 
