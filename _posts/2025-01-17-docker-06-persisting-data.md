@@ -1,7 +1,7 @@
 ---
 title: Docker Volumes - Persisting Data 📙
 author: vishalanarase
-date: 2025-01-18 17:00:00 +0530
+date: 2025-01-17 17:00:00 +0530
 categories: [Docking the Ship Navigating Docker for Developers]
 tags: [docker]
 render_with_liquid: false
