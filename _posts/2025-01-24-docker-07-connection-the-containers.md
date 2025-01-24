@@ -5,7 +5,7 @@ date: 2025-01-24 10:00:00 +0530
 categories: [Docking the Ship Navigating Docker for Developers]
 tags: [docker]
 render_with_liquid: false
-image: assets/images/docker/title/docker-network.web
+image: assets/images/docker/title/docker-network.webp
 ---
 
 Welcome back to *Docking the Ship: Navigating Docker for Developers*! Docker has become an essential tool in modern software development, allowing developers to package applications and all their dependencies into isolated, portable containers. However, as applications scale and involve multiple containers (e.g., a web application and a database), managing communication between these containers becomes a crucial part of the deployment process. This is where **Docker Networks** come into play, providing a robust mechanism to control how containers communicate with each other.
