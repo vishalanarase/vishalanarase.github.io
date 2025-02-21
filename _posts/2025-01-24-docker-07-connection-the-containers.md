@@ -519,7 +519,7 @@ $ docker network inspect my-network
 
 Docker Networks are a powerful way to manage communication between containers. In this post, we explored how Docker networking works by creating a simple Go web application and a MySQL container, both running on the same custom Docker network. This example demonstrates the ease with which containers can communicate when they share a network, making it possible to design microservice-based
 
-In the next post, we’ll explore [Docker Compose: Coordinating the Crew](#) for managing multi-container applications. Stay tuned, and happy docking! 🚢
+In the next post, we’ll explore [Docker Compose: Coordinating the Crew](https://vishalanarase.github.io/posts/docker-09-docker-compose) for managing multi-container applications. Stay tuned, and happy docking! 🚢
 
 --- 
 
