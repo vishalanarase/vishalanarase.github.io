@@ -57,4 +57,4 @@ Our first workshop will kick off with a deep dive into the world of serverless o
 
 **Get your tools ready. The workshop is about to begin.**
 
-Stay tuned by subscribing to the blog or following me on [X](https://x.com/vishalanarase) [LinkedIn](https://www.linkedin.com/in/vishal-anarase-623707104/) so you don't miss the updates!
+Stay tuned by subscribing to the blog or following me on [X](https://x.com/vishalanarase) and [LinkedIn](https://www.linkedin.com/in/vishal-anarase-623707104/) so you don't miss the updates!
