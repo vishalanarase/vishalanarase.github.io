@@ -1,11 +1,11 @@
 ---
-title: Building Serverless Functions on Kubernetes using Knative
+title: Building And Deploying Serverless Functions On Kubernetes Using Knative
 author: vishalanarase
-date: 2025-07-19 10:00:00 +0530
-categories: [Cloud Native]
-tags: [cloud-native, knative, kubernetes, serverless]
+date: 2025-08-23 10:00:00 +0530
+categories: [Cloud Native Kubernetes Workshop]
+tags: [cloud-native, knative, kubernetes, serverless, workshop]
 render_with_liquid: false
-keywords: 'AWS Lambda to Kubernetes migration, Lambda to Kubernetes, Serverless Kubernetes, Knative migration, FaaS on Kubernetes, Kubernetes serverless, EKS Lambda migration, Cloud-native serverless, Event-driven Kubernetes, Serverless challenges Kubernetes, Knative vs Lambda, OpenFaaS alternative, Fission alternative,Kubeless alternative'
+keywords: 'AWS Lambda to Kubernetes migration, Lambda to Kubernetes, Serverless Kubernetes, Knative migration, FaaS on Kubernetes, Kubernetes serverless, EKS Lambda migration, Cloud-native serverless, Event-driven Kubernetes, Serverless challenges Kubernetes, Knative vs Lambda, OpenFaaS alternative, Fission alternative, Kubeless alternative'
 image: assets/images/cloud-native/title/knative-on-k8s.png
 ---
 
