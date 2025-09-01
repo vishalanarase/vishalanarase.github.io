@@ -1,7 +1,7 @@
 ---
 title: Building And Deploying Serverless Functions On Kubernetes Using Knative
 author: vishalanarase
-date: 2025-08-24 10:00:00 +0530
+date: 2025-08-31 10:00:00 +0530
 categories: [Cloud Native Kubernetes Workshop]
 tags: [cloud-native, knative, kubernetes, serverless, workshop]
 render_with_liquid: false
