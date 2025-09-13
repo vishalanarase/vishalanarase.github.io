@@ -54,3 +54,28 @@ Unlike simple readiness/liveness probes, Canary Checker validates end-to-end fun
 * Run test suites for higher-level validation.
 * Supports Playwright (UI tests), JUnit, Postman/Newman, K6 load tests.
 * Ensures critical workflows (e.g., login → checkout → payment) still function.
+
+## Core Capabilities & Differentiators
+
+### Prometheus Metrics Exporter Built-In
+
+Every canary automatically exports metrics. No need to wire separate exporters.
+
+### Scriptable Logic
+
+Use CEL, JavaScript, or Go templates to customize pass/fail conditions.
+Example: Alert of API latency > 500ms and SSL cert expires within 7 days.
+
+### Dashboard & Visualization
+
+Built-in dashboard shows real-time canary results. Works seamlessly with Grafana dashboards.
+
+![]()
+
+### Seamless Kubernetes Integration
+
+Canary checks are declarative CRDs, GitOps-friendly. Works with FluxCD, ArgoCD
+
+### Secret Management
+
+Securely reference secrets via Kubernetes Secrets or ConfigMaps
