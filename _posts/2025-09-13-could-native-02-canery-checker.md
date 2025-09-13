@@ -79,3 +79,51 @@ Canary checks are declarative CRDs, GitOps-friendly. Works with FluxCD, ArgoCD
 ### Secret Management
 
 Securely reference secrets via Kubernetes Secrets or ConfigMaps
+
+## Getting Started
+
+### Install via Helm
+
+\`\`\`bash
+❯ helm repo add flanksource [https://flanksource.github.io/charts](https://flanksource.github.io/charts)
+"flanksource" has been added to your repositories
+\`\`\`
+\`\`\`bash
+❯ helm install canary-checker flanksource/canary-checker \-n canary-checker \--create-namespace
+NAME: canary-checker
+LAST DEPLOYED: Fri Aug 29 17:57:06 2025
+NAMESPACE: canary-checker
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+\`\`\`
+
+\`\`\`bash
+❯ helm list \-n canary-checker
+NAME              NAMESPACE         REVISION    UPDATED                                 STATUS      CHART                   APP VERSION
+canary-checker    canary-checker    1           2025-08-29 17:57:06.359401 \+0530 IST    deployed    canary-checker-1.1.1    1.1.1
+\`\`\`
+
+### Check Results
+
+* List services
+
+	\`\`\`bash
+	❯ kubectl get svc \-n canary-checker
+NAME                TYPE        CLUSTER-IP     EXTERNAL-IP   PORT(S)    AGE
+canary-checker      ClusterIP   10.96.61.129   \<none\>        8080/TCP   4d22h
+canary-checker-ui   ClusterIP   10.96.148.84   \<none\>        80/TCP     4d22h
+	\`\`\`
+
+* Port-forward the UI: \`kubectl port-forward svc/canary-checker 8080:8080\`
+  \`\`\`❯ kubectl  \-n canary-checker port-forward svc/canary-checker-ui 8080:80
+  Forwarding from 127.0.0.1:8080 \-\> 3000
+  Forwarding from \[::1\]:8080 \-\> 3000
+  Handling connection for 8080
+  Handling connection for 8080
+  Handling connection for 8080
+  Handling connection for 8080
+  Handling connection for 8080
+  Handling connection for 8080
+  \`\`\`
+* Or check metrics at \`/metrics\` endpoint.
