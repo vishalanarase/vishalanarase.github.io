@@ -134,7 +134,7 @@ canary-checker-ui   ClusterIP   10.96.148.84   <none>        80/TCP     4d22h
 
 Verify website returns \`200\` within latency limits
 
-\`\`\`yaml
+```yaml
 apiVersion: canaries.flanksource.com/v1
 kind: Canary
 metadata:
@@ -146,16 +146,16 @@ spec:
       url: https://httpbin.flanksource.com/status/200
     \- name: failing-check
       url: https://httpbin.flanksource.com/status/500
-\`\`\`
-\`\`\`bash
+```
+```bash
 ❯ k apply \-f canary.yaml
 canary.canaries.flanksource.com/http-check created
-\`\`\`
+```
 
 ### Custom Metrics
 
 Monitor external data (e.g., exchange rates) and expose them as Prometheus metrics.
-\`\`\`yaml
+```yaml
 apiVersion: canaries.flanksource.com/v1
 kind: Canary
 metadata:
@@ -195,16 +195,16 @@ spec:
         \- name: exchange\_rate\_api
           type: histogram
           value: elapsed.getMilliseconds()
-\`\`\`
-\`\`\`bash
+```
+```bash
 ❯ k apply \-f exchange-rates-exporter.yaml
 canary.canaries.flanksource.com/exchange-rates created
-\`\`\`
+```
 
 ### Kubernetes
 
 Check dns pod in kubernetes cluster
-\`\`\`yaml
+```yaml
 apiVersion: canaries.flanksource.com/v1
 kind: Canary
 metadata:
@@ -221,12 +221,12 @@ spec:
       namespaceSelector:
         name: kube-system
       display: {}
-\`\`\`
+```
 
-\`\`\`bash
+```bash
 ❯ k apply \-f checks-dns.yaml
 canary.canaries.flanksource.com/checks-dns created
-\`\`\`
+```
 
 ### Infrastructure Validation
 
@@ -234,10 +234,10 @@ Test new pod/namespace creation after autoscaler events.
 
 ### List all the canries and verify
 
-\`\`\`bash
+```bash
 ❯ kubectl get canaries.canaries.flanksource.com
 NAME             INTERVAL   STATUS   LAST CHECK   UPTIME 1H   LATENCY 1H   LAST TRANSITIONED
 checks-dns
 exchange-rates
 http-check-new   30
-\`\`\`
+```
