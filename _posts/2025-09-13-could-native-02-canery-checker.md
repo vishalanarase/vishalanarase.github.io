@@ -82,12 +82,25 @@ Securely reference secrets via Kubernetes Secrets or ConfigMaps
 
 ## Getting Started
 
+### Prerequisites
+
+You need kubernetes cluster up and running, you can you use [kind](https://kind.sigs.k8s.io/) or any standard cloud distribution
+
+Here, I have `kind` cluster
+
+```bash
+❯ kubectl config get-contexts
+CURRENT   NAME   CLUSTER    AUTHINFO    NAMESPACE
+*         kind   kind       kind
+```
+
 ### Install via Helm
 
 ```bash
 ❯ helm repo add flanksource [https://flanksource.github.io/charts](https://flanksource.github.io/charts)
 "flanksource" has been added to your repositories
 ```
+
 ```bash
 ❯ helm install canary-checker flanksource/canary-checker -n canary-checker --create-namespace
 NAME: canary-checker
@@ -128,7 +141,7 @@ canary-checker-ui   ClusterIP   10.96.148.84   <none>        80/TCP     4d22h
   Handling connection for 8080
   Handling connection for 8080
   ```
-  
+
 * Or check metrics at `/metrics` endpoint.
 
 ## Use Cases
