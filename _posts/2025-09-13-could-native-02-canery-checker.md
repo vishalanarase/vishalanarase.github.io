@@ -127,3 +127,117 @@ canary-checker-ui   ClusterIP   10.96.148.84   <none>        80/TCP     4d22h
   Handling connection for 8080
   ```
 * Or check metrics at `/metrics` endpoint.
+
+## Use Cases
+
+### HTTP Check
+
+Verify website returns \`200\` within latency limits
+
+\`\`\`yaml
+apiVersion: canaries.flanksource.com/v1
+kind: Canary
+metadata:
+  name: http-check
+spec:
+  schedule: "@every 30s"
+  http:
+    \- name: basic-check
+      url: https://httpbin.flanksource.com/status/200
+    \- name: failing-check
+      url: https://httpbin.flanksource.com/status/500
+\`\`\`
+\`\`\`bash
+❯ k apply \-f canary.yaml
+canary.canaries.flanksource.com/http-check created
+\`\`\`
+
+### Custom Metrics
+
+Monitor external data (e.g., exchange rates) and expose them as Prometheus metrics.
+\`\`\`yaml
+apiVersion: canaries.flanksource.com/v1
+kind: Canary
+metadata:
+  name: exchange-rates
+spec:
+  schedule: "every 30 @minutes"
+  http:
+    \- name: exchange-rates
+      url: https://api.frankfurter.app/latest?from=USD\&to=GBP,EUR,ILS
+      metrics:
+        \- name: exchange\_rate
+          type: gauge
+          value: json.rates.GBP
+          labels:
+            \- name: "from"
+              value: "USD"
+            \- name: to
+              value: GBP
+
+        \- name: exchange\_rate
+          type: gauge
+          value: json.rates.EUR
+          labels:
+            \- name: "from"
+              value: "USD"
+            \- name: to
+              value: EUR
+
+        \- name: exchange\_rate
+          type: gauge
+          value: json.rates.ILS
+          labels:
+            \- name: "from"
+              value: "USD"
+            \- name: to
+              value: ILS
+        \- name: exchange\_rate\_api
+          type: histogram
+          value: elapsed.getMilliseconds()
+\`\`\`
+\`\`\`bash
+❯ k apply \-f exchange-rates-exporter.yaml
+canary.canaries.flanksource.com/exchange-rates created
+\`\`\`
+
+### Kubernetes
+
+Check dns pod in kubernetes cluster
+\`\`\`yaml
+apiVersion: canaries.flanksource.com/v1
+kind: Canary
+metadata:
+  name: checks-dns
+spec:
+  replicas: 1
+  schedule: '@every 30s'
+  kubernetes:
+    \- name: Monitor DNS pods
+      kind: Pod
+      healthy: true
+      resource:
+        labelSelector: k8s-app=kube-dns
+      namespaceSelector:
+        name: kube-system
+      display: {}
+\`\`\`
+
+\`\`\`bash
+❯ k apply \-f checks-dns.yaml
+canary.canaries.flanksource.com/checks-dns created
+\`\`\`
+
+### Infrastructure Validation
+
+Test new pod/namespace creation after autoscaler events.
+
+### List all the canries and verify
+
+\`\`\`bash
+❯ kubectl get canaries.canaries.flanksource.com
+NAME             INTERVAL   STATUS   LAST CHECK   UPTIME 1H   LATENCY 1H   LAST TRANSITIONED
+checks-dns
+exchange-rates
+http-check-new   30
+\`\`\`
