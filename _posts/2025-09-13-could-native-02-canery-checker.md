@@ -132,7 +132,7 @@ canary-checker-ui   ClusterIP   10.96.148.84   <none>        80/TCP     4d22h
 
 ### HTTP Check
 
-Verify website returns \`200\` within latency limits
+Verify website returns `200` within latency limits
 
 ```yaml
 apiVersion: canaries.flanksource.com/v1
@@ -142,13 +142,13 @@ metadata:
 spec:
   schedule: "@every 30s"
   http:
-    \- name: basic-check
+    - name: basic-check
       url: https://httpbin.flanksource.com/status/200
-    \- name: failing-check
+    - name: failing-check
       url: https://httpbin.flanksource.com/status/500
 ```
 ```bash
-❯ k apply \-f canary.yaml
+❯ k apply -f canary.yaml
 canary.canaries.flanksource.com/http-check created
 ```
 
@@ -163,41 +163,41 @@ metadata:
 spec:
   schedule: "every 30 @minutes"
   http:
-    \- name: exchange-rates
-      url: https://api.frankfurter.app/latest?from=USD\&to=GBP,EUR,ILS
+    - name: exchange-rates
+      url: https://api.frankfurter.app/latest?from=USD&to=GBP,EUR,ILS
       metrics:
-        \- name: exchange\_rate
+        - name: exchange_rate
           type: gauge
           value: json.rates.GBP
           labels:
-            \- name: "from"
+            - name: "from"
               value: "USD"
-            \- name: to
+            - name: to
               value: GBP
 
-        \- name: exchange\_rate
+        - name: exchange_rate
           type: gauge
           value: json.rates.EUR
           labels:
-            \- name: "from"
+            - name: "from"
               value: "USD"
-            \- name: to
+            - name: to
               value: EUR
 
-        \- name: exchange\_rate
+        - name: exchange_rate
           type: gauge
           value: json.rates.ILS
           labels:
-            \- name: "from"
+            - name: "from"
               value: "USD"
-            \- name: to
+            - name: to
               value: ILS
-        \- name: exchange\_rate\_api
+        - name: exchange_rate_api
           type: histogram
           value: elapsed.getMilliseconds()
 ```
 ```bash
-❯ k apply \-f exchange-rates-exporter.yaml
+❯ k apply -f exchange-rates-exporter.yaml
 canary.canaries.flanksource.com/exchange-rates created
 ```
 
@@ -213,7 +213,7 @@ spec:
   replicas: 1
   schedule: '@every 30s'
   kubernetes:
-    \- name: Monitor DNS pods
+    - name: Monitor DNS pods
       kind: Pod
       healthy: true
       resource:
@@ -224,7 +224,7 @@ spec:
 ```
 
 ```bash
-❯ k apply \-f checks-dns.yaml
+❯ k apply -f checks-dns.yaml
 canary.canaries.flanksource.com/checks-dns created
 ```
 
