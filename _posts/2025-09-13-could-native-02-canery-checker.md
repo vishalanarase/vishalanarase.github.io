@@ -116,7 +116,9 @@ canary-checker-ui   ClusterIP   10.96.148.84   <none>        80/TCP     4d22h
 	```
 
 * Port-forward the UI: `kubectl port-forward svc/canary-checker 8080:8080`
-  ```❯ kubectl  -n canary-checker port-forward svc/canary-checker-ui 8080:80
+
+  ```bash
+  ❯ kubectl  -n canary-checker port-forward svc/canary-checker-ui 8080:80
   Forwarding from 127.0.0.1:8080 -> 3000
   Forwarding from [::1]:8080 -> 3000
   Handling connection for 8080
@@ -126,6 +128,7 @@ canary-checker-ui   ClusterIP   10.96.148.84   <none>        80/TCP     4d22h
   Handling connection for 8080
   Handling connection for 8080
   ```
+  
 * Or check metrics at `/metrics` endpoint.
 
 ## Use Cases
