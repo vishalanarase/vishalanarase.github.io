@@ -24,3 +24,7 @@ Canary Checker is a declarative health check system for Kubernetes, built to ens
 * Designed for GitOps workflows, you define canary CRDs alongside other manifests.
 
 Unlike simple readiness/liveness probes, Canary Checker validates end-to-end functionality across your entire stack.
+
+### Health Checks
+
+![](assets/images/cloud-native/canery/health-checks.png)
