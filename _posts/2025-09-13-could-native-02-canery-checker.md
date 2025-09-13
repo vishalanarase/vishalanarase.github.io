@@ -241,3 +241,16 @@ checks-dns
 exchange-rates
 http-check-new   30
 ```
+
+## Comparison: Canary Checker vs Alternatives
+
+| Feature / Tool            | \*\*Canary Checker\*\*                      | \*\*Prometheus \+ Alertmanager\*\* | \*\*Flagger\*\*          | \*\*Argo Rollouts\*\*    |
+| \------------------------- | \--------------------------------------- | \----------------------------- | \-------------------- | \-------------------- |
+| \*\*Kubernetes-native\*\*     | ✅ CRDs, GitOps                          | ❌ (needs exporters)           | ✅                    | ✅                    |
+| \*\*Synthetic Checks\*\*      | ✅ HTTP, DB, LDAP                        | ❌ Only metrics-based          | ❌                    | ❌                    |
+| \*\*Passive Checks\*\*        | ✅ Ingest from Prom, Datadog, CloudWatch | ✅ Prometheus only             | ❌                    | ❌                    |
+| \*\*Integration Tests\*\*     | ✅ JUnit, Newman, Playwright             | ❌                             | ❌                    | ❌                    |
+| \*\*Infrastructure Checks\*\* | ✅ Pods, EC2, Cloud                      | ❌                             | ❌                    | ❌                    |
+| \*\*Metrics Exporter\*\*      | ✅ Built-in                              | ✅ via exporters               | ✅                    | ✅                    |
+| \*\*Focus\*\*                 | End-to-end health                       | Metrics collection & alerts   | Progressive delivery | Progressive delivery |
+| \*\*Best For\*\*              | Full-stack validation                   | Metrics-based monitoring      | Canary deployments   | Canary deployments   |
