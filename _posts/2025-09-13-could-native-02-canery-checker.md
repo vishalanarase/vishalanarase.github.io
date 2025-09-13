@@ -70,7 +70,7 @@ Example: Alert of API latency > 500ms and SSL cert expires within 7 days.
 
 Built-in dashboard shows real-time canary results. Works seamlessly with Grafana dashboards.
 
-![]()
+![](assets/images/cloud-native/canery/canary-dashboard.png)
 
 ### Seamless Kubernetes Integration
 
