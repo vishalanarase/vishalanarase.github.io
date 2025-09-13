@@ -28,3 +28,29 @@ Unlike simple readiness/liveness probes, Canary Checker validates end-to-end fun
 ### Health Checks
 
 ![](assets/images/cloud-native/canery/health-checks.png)
+
+## Types of Checks Supported
+
+### Synthetic (Active) Checks
+
+* Actively probe endpoints or services.
+* Examples: HTTP requests, SQL queries, MongoDB connections, LDAP logins.
+* Catch issues before real users do.
+
+### Passive Checks
+
+* Collect signals from existing monitoring/observability systems.
+* Sources: Prometheus alerts, Datadog, CloudWatch, and Elasticsearch queries.
+* Useful to consolidate alerts in one place.
+
+### Infrastructure Checks
+
+* Validate cluster or cloud resource provisioning.
+* Examples: create a pod or EC2 instance, then test readiness.
+* Ensures autoscaling or infra provisioning pipelines actually work.
+
+### Integration Checks
+
+* Run test suites for higher-level validation.
+* Supports Playwright (UI tests), JUnit, Postman/Newman, K6 load tests.
+* Ensures critical workflows (e.g., login → checkout → payment) still function.
