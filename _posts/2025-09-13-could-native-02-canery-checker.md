@@ -254,3 +254,10 @@ http-check-new   30
 | **Metrics Exporter**      | ✅ Built-in                              | ✅ via exporters               | ✅                    | ✅                    |
 | **Focus**                 | End-to-end health                       | Metrics collection & alerts   | Progressive delivery | Progressive delivery |
 | **Best For**              | Full-stack validation                   | Metrics-based monitoring      | Canary deployments   | Canary deployments   |
+
+## When to Use Canary Checker vs Alternatives
+
+* Use **Canary Checker** if you want simple, Kubernetes-native, declarative checks.
+* Use **Flagger/Argo Rollouts** if your focus is **progressive delivery** (not just monitoring).
+* Use **Kayenta/Spinnaker** if you need **large-scale automated analysis**.
+* Use **Prometheus DIY/SaaS** if you want **flexibility or managed monitoring**.
