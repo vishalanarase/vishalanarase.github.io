@@ -16,7 +16,7 @@ timezone: Asia/Calcutta
 
 title: Vishal Anarase # the main title
 
-tagline: 👨🏻‍💻 @Civo @Kubernetes | CNCF Kubestronaut | Cloud Native | Open Source # it will display as the subtitle
+tagline: 👨🏻‍💻 @Mirantis @Kubernetes | CNCF Kubestronaut | Cloud Native | Open Source # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Software Developer at Civo, CNCF Kubestronaut, and Kubernetes enthusiast. Passionate about Cloud Native technologies, Open Source contributions, and empowering innovation in the containerized ecosystem.
