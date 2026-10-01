@@ -29,11 +29,11 @@ You can stop at Kubestronaut and be done with something real. You can keep going
 
 These five are enough. Learn them in this order and each one hands you something the next exam uses.
 
-1. **KCNA (Kubernetes and Cloud Native Associate).** Multiple choice. Your front door. The words, the cluster, and a map of the landscape so nothing later feels like a foreign language.
-2. **CKA (Certified Kubernetes Administrator).** Hands-on, two hours. You learn to run the cluster: architecture, workloads, networking, storage, and troubleshooting. This is where confidence starts to feel earned.
-3. **CKAD (Certified Kubernetes Application Developer).** Hands-on, two hours. You learn to build what runs on that cluster. Design, configuration, exposure, observability.
-4. **KCSA (Kubernetes and Cloud Security Associate).** Multiple choice. Security ideas, in calm conditions, before anyone puts you in a lab and starts the clock.
-5. **CKS (Certified Kubernetes Security Specialist).** Hands-on, two hours. You can book this once CKA is active. Hardening, supply chain, workloads, runtime. This is the exam that turns the first four into Kubestronaut.
+1. **[KCNA (Kubernetes and Cloud Native Associate).](/posts/kubestronaut-01-kcna)** Multiple choice. Your front door. The words, the cluster, and a map of the landscape so nothing later feels like a foreign language.
+2. **[CKA (Certified Kubernetes Administrator).](/posts/kubestronaut-02-cka)** Hands-on, two hours. You learn to run the cluster: architecture, workloads, networking, storage, and troubleshooting. This is where confidence starts to feel earned.
+3. **[CKAD (Certified Kubernetes Application Developer).](/posts/kubestronaut-03-ckad/)** Hands-on, two hours. You learn to build what runs on that cluster. Design, configuration, exposure, observability.
+4. **[KCSA (Kubernetes and Cloud Security Associate).](/posts/kubestronaut-04-kcsa/)** Multiple choice. Security ideas, in calm conditions, before anyone puts you in a lab and starts the clock.
+5. **[CKS (Certified Kubernetes Security Specialist).](/posts/kubestronaut-05-cks/)** Hands-on, two hours. You schedule this after you have passed CKA. Hardening, supply chain, workloads, runtime. This is the exam that turns the first four into Kubestronaut.
 
 ### Then pause, and notice what you did
 
@@ -79,6 +79,6 @@ It is for you. Start with KCNA.
 - A Kubernetes cluster when the hands-on exams arrive. [kind](https://kind.sigs.k8s.io/) or [minikube](https://minikube.sigs.k8s.io/docs/start/) is enough to practice.
 - A terminal, and the willingness to sit one exam before you plan the next.
 
-The next post is **KCNA**. It is the front door. Walk through it.
+The next post is **[KCNA](/posts/kubestronaut-01-kcna)**. It is the front door. Walk through it.
 
 Stay tuned by subscribing to the blog or following me on [X](https://x.com/vishalanarase), [LinkedIn](https://www.linkedin.com/in/vishal-anarase-623707104/), and the [CNCF Golden Kubestronaut map](https://www.cncf.io/training/kubestronaut/?_sft_lf-country=in&_sfm_lf_person_golden=1&p=vishal-anarase&_sf_s=vishal+anarase).
