@@ -5,7 +5,7 @@ date: 2025-01-25 11:00:00 +0530
 categories: [Docking the Ship Navigating Docker for Developers]
 tags: [docker]
 render_with_liquid: false
-image: assets/images/docker/title/docker-gordon-ai.webp
+image: assets/images/docker/title/docker-gordon-ai.png
 ---
 
 Welcome back to *Docking the Ship: Navigating Docker for Developers*! As a developer immersed in the Docker ecosystem, I’m always on the lookout for tools that can enhance my workflow. Over the past couple of weeks, I’ve been using Docker’s Ask Gordon AI assistant, and I’ve got to say—it’s a game-changer, especially for Dockerfile optimization. Here’s my take on what it brings to the table and how it’s made my life easier.

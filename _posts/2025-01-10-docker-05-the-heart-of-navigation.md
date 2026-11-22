@@ -5,7 +5,7 @@ date: 2025-01-10 12:00:00 +0530
 categories: [Docking the Ship Navigating Docker for Developers]
 tags: [docker]
 render_with_liquid: false
-image: assets/images/docker/title/the-heart-of-navigation.webp
+image: assets/images/docker/title/the-heart-of-navigation.png
 ---
 
 Welcome back to *Docking the Ship: Navigating Docker for Developers*! In this installment, we’ll explore the cornerstone of Docker: **containers**. Containers have revolutionized the way we build, ship, and run applications. In this post, we’ll dive deep into what containers are, how they work, and why they’re so efficient.

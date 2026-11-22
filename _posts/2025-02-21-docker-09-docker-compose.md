@@ -5,7 +5,7 @@ date: 2025-02-21 10:00:00 +0530
 categories: [Docking the Ship Navigating Docker for Developers]
 tags: [docker]
 render_with_liquid: false
-image: assets/images/docker/title/docker-compose.webp
+image: assets/images/docker/title/docker-compose.png
 ---
 
 Welcome back to *Docking the Ship: Navigating Docker for Developers*! In the world of modern software development, containers have become the backbone of scalable and isolated applications. Docker, with its lightweight, portable containers, has revolutionized the way we deploy and manage applications. But what happens when your application requires multiple services that need to work together? This is where **Docker Compose** comes in—allowing you to define, run, and manage multi-container applications with ease.

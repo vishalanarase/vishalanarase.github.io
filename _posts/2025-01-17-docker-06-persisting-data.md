@@ -5,7 +5,7 @@ date: 2025-01-17 17:00:00 +0530
 categories: [Docking the Ship Navigating Docker for Developers]
 tags: [docker]
 render_with_liquid: false
-image: assets/images/docker/title/docker-volume.webp
+image: assets/images/docker/title/docker-volume.png
 ---
 Welcome back to *Docking the Ship: Navigating Docker for Developers*! Docker has revolutionized how we build, deploy, and run applications. It provides an isolated environment for running your applications, known as containers. While Docker containers are fantastic for packaging applications, they have one major limitation: **data persistence**. By default, the data inside a container is ephemeral, meaning it disappears when the container is removed or stopped. This is where **Docker Volumes** come to the rescue. In this post, we'll explore Docker volumes, their theory behind them, and how they can be used to persist data across container lifecycles.
 
