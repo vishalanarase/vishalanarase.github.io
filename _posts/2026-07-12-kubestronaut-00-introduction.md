@@ -37,27 +37,27 @@ These five are enough. Learn them in this order and each one hands you something
 
 ### Then pause, and notice what you did
 
-**Becoming a Kubestronaut.** A short stop. The badge, the community, and the decision to continue. When you get here, take the evening off before you look at the next mountain.
+**[Becoming a Kubestronaut.](/posts/kubestronaut-06-kubestronaut)** A short stop. The badge, the community, and the decision to continue. When you get here, take the evening off before you look at the next mountain.
 
 ### If you want to keep going: Golden
 
-Same habit. A new subject every time. Linux first, because everything else sits on it. Then observability, networking, delivery, policy, and finally the platform exams, which reuse what you already know.
+Same habit. A new subject every time. Observability, then networking, then delivery, then policy, then the platform exams. Linux is last, because by then you will know why the operating system under the cluster matters.
 
-6. **PCA (Prometheus Certified Associate).** Metrics, PromQL, alerting. You learn to see what the cluster is doing.
-7. **OTCA (OpenTelemetry Certified Associate).** Traces, metrics, and logs. The wider story around the metrics you just learned.
-8. **CCA (Cilium Certified Associate).** How pods actually talk, and how you secure that path.
-9. **ICA (Istio Certified Associate).** Hands-on. A service mesh: traffic, security, telemetry. Another lab exam, and you will already know how to be calm in one.
-10. **CGOA (GitOps Certified Associate).** Desired state and reconciliation. A cleaner way to ship.
-11. **CAPA (Certified Argo Project Associate).** Argo CD, Workflows, Rollouts, and Events. The tools people mean when they say GitOps out loud.
-12. **CBA (Certified Backstage Associate).** A catalog and a front door for the engineers you support.
-13. **KCA (Kyverno Certified Associate).** Policy as Kubernetes resources. Your CKS instincts, written down so the cluster enforces them.
-14. **CNPA (Cloud Native Platform Engineering Associate).** Multiple choice. What a platform is for. Required for Golden since 15 October 2025.
-15. **CNPE (Certified Cloud Native Platform Engineer).** Hands-on. You put the platform together: architecture, GitOps, self-service, observability, policy. Required for Golden since 1 March 2026. Save it for last. By then it will feel like a review of the road behind you.
-16. **LFCS (Linux Foundation Certified System Administrator).** Hands-on. Processes, networking, storage, permissions. The operating system under every cluster you will ever touch.
+6. **[PCA (Prometheus Certified Associate).](/posts/kubestronaut-07-pca)** Metrics, PromQL, alerting. You learn to see what the cluster is doing.
+7. **[OTCA (OpenTelemetry Certified Associate).](/posts/kubestronaut-08-otca)** Traces, metrics, and logs. The wider story around the metrics you just learned.
+8. **[CCA (Cilium Certified Associate).](/posts/kubestronaut-09-cca)** How pods actually talk, and how you secure that path.
+9. **[ICA (Istio Certified Associate).](/posts/kubestronaut-10-ica)** Hands-on. A service mesh: traffic, security, telemetry. Another lab exam, and you will already know how to be calm in one.
+10. **[CGOA (GitOps Certified Associate).](/posts/kubestronaut-11-cgoa)** Desired state and reconciliation. A cleaner way to ship.
+11. **[CAPA (Certified Argo Project Associate).](/posts/kubestronaut-12-capa)** Argo CD, Workflows, Rollouts, and Events. The tools people mean when they say GitOps out loud.
+12. **[CBA (Certified Backstage Associate).](/posts/kubestronaut-13-cba)** A catalog and a front door for the engineers you support.
+13. **[KCA (Kyverno Certified Associate).](/posts/kubestronaut-14-kca)** Policy as Kubernetes resources. Your CKS instincts, written down so the cluster enforces them.
+14. **[CNPA (Cloud Native Platform Engineering Associate).](/posts/kubestronaut-15-cnpa)** Multiple choice. What a platform is for. Required for Golden since 15 October 2025.
+15. **[CNPE (Certified Cloud Native Platform Engineer).](/posts/kubestronaut-16-cnpe)** Hands-on. You put the platform together: architecture, GitOps, self-service, observability, policy. Required for Golden since 1 March 2026. Save it for last among the CNCF exams. By then it will feel like a review of the road behind you.
+16. **[LFCS (Linux Foundation Certified System Administrator).](/posts/kubestronaut-17-lfcs)** Hands-on. Processes, networking, storage, permissions. The operating system under every cluster you will ever touch.
 
 ### After the exams
 
-**Keeping the title.** This last post is not another exam. Certifications expire, and CNCF sometimes adds a new one. The post explains how to stay a Golden Kubestronaut after you have passed them all, and what the title includes.
+**[Keeping the title.](/posts/kubestronaut-18-golden)** This last post is not another exam. Certifications expire, and CNCF sometimes adds a new one. The post explains how to stay a Golden Kubestronaut after you have passed them all, and what the title includes.
 
 ## Why walk it with this series
 

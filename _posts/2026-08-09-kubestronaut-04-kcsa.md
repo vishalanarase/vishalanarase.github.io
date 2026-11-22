@@ -6,6 +6,7 @@ categories: [The Road to Golden Kubestronaut]
 tags: [kubestronaut, kcsa]
 render_with_liquid: false
 keywords: 'kcsa, kubernetes and cloud native security associate, kubestronaut, kubernetes, cncf'
+image: assets/images/kubestronaut/title/kcsa.jpg
 ---
 
 This is the fourth exam on [The Road to Golden Kubestronaut](/posts/kubestronaut-00-introduction/). [CKAD](/posts/kubestronaut-03-ckad/) is behind you. **KCSA** is the quiet one before the security lab.

@@ -6,6 +6,7 @@ categories: [The Road to Golden Kubestronaut]
 tags: [kubestronaut, ckad]
 render_with_liquid: false
 keywords: 'ckad, certified kubernetes application developer, kubestronaut, kubernetes, cncf'
+image: assets/images/kubestronaut/title/ckad.jpg
 ---
 
 This is the third exam on [The Road to Golden Kubestronaut](/posts/kubestronaut-00-introduction/). [CKA](/posts/kubestronaut-02-cka) taught you to run the cluster. **CKAD** asks you to build what runs on it.

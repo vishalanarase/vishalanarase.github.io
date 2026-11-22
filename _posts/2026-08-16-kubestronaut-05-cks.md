@@ -6,6 +6,7 @@ categories: [The Road to Golden Kubestronaut]
 tags: [kubestronaut, cks]
 render_with_liquid: false
 keywords: 'cks, certified kubernetes security specialist, kubestronaut, kubernetes, cncf'
+image: assets/images/kubestronaut/title/cks.jpg
 ---
 
 This is the fifth exam on [The Road to Golden Kubestronaut](/posts/kubestronaut-00-introduction/). [KCSA](/posts/kubestronaut-04-kcsa/) gave you the security ideas. **CKS** asks you to apply them.
@@ -130,4 +131,4 @@ The performance exams share the same room rules as CKA.
 
 Then go sit it. This is the exam that turns the first four into Kubestronaut.
 
-The next post is a pause. **Becoming a Kubestronaut** is not another exam. It is the evening you notice what you just finished, before the Golden half of the road.
+The next post is a pause. **[Becoming a Kubestronaut](/posts/kubestronaut-06-kubestronaut)** is not another exam. It is the evening you notice what you just finished, before the Golden half of the road.

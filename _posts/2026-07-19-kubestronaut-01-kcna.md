@@ -6,6 +6,7 @@ categories: [The Road to Golden Kubestronaut]
 tags: [kubestronaut, kcna]
 render_with_liquid: false
 keywords: 'kcna, kubernetes and cloud native associate, kubestronaut, kubernetes, cncf'
+image: assets/images/kubestronaut/title/kcna.jpg
 ---
 
 This is the first exam on [The Road to Golden Kubestronaut](/posts/kubestronaut-00-introduction/).

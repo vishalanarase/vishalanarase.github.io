@@ -6,6 +6,7 @@ categories: [The Road to Golden Kubestronaut]
 tags: [kubestronaut, cka]
 render_with_liquid: false
 keywords: 'cka, certified kubernetes administrator, kubestronaut, kubernetes, cncf'
+image: assets/images/kubestronaut/title/cka.jpg
 ---
 
 This is the second exam on [The Road to Golden Kubestronaut](/posts/kubestronaut-00-introduction/). [KCNA](/posts/kubestronaut-01-kcna) gave you the words. **CKA** asks you to use them.
